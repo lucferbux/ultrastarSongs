@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11CD55A63DB3A068C50E9A86 /* Pods_ultrastar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6023894A23EE8CF5317AC7B3 /* Pods_ultrastar.framework */; };
 		96AA8E741FFD08F2005B884A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA8E731FFD08F2005B884A /* AppDelegate.swift */; };
-		96AA8E761FFD08F2005B884A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA8E751FFD08F2005B884A /* ViewController.swift */; };
 		96AA8E791FFD08F2005B884A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AA8E771FFD08F2005B884A /* Main.storyboard */; };
 		96AA8E7B1FFD08F2005B884A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96AA8E7A1FFD08F2005B884A /* Assets.xcassets */; };
 		96AA8E7E1FFD08F2005B884A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AA8E7C1FFD08F2005B884A /* LaunchScreen.storyboard */; };
 		96AA8E891FFD08F2005B884A /* ultrastarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA8E881FFD08F2005B884A /* ultrastarTests.swift */; };
 		96AA8E941FFD08F3005B884A /* ultrastarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA8E931FFD08F3005B884A /* ultrastarUITests.swift */; };
+		96AA8EA21FFD09C0005B884A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96AA8EA11FFD09C0005B884A /* GoogleService-Info.plist */; };
+		96AA8EA71FFD3836005B884A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA8EA61FFD3836005B884A /* Song.swift */; };
+		96AA8EA91FFD4D12005B884A /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA8EA81FFD4D12005B884A /* SongTableViewController.swift */; };
+		C10A5DB7637238B748166841 /* Pods_ultrastarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A4AFDF465FD1AC5AB40394 /* Pods_ultrastarTests.framework */; };
+		CF01D2291E32789573406A6D /* Pods_ultrastarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CB5DFF6C8DA90802A55330 /* Pods_ultrastarUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CA35D821D99AFEB8F37CB4A /* Pods-ultrastarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultrastarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ultrastarTests/Pods-ultrastarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15A4AFDF465FD1AC5AB40394 /* Pods_ultrastarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ultrastarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CB5DFF6C8DA90802A55330 /* Pods_ultrastarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ultrastarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6023894A23EE8CF5317AC7B3 /* Pods_ultrastar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ultrastar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C997F1213FFE94D17534F4A /* Pods-ultrastar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultrastar.release.xcconfig"; path = "Pods/Target Support Files/Pods-ultrastar/Pods-ultrastar.release.xcconfig"; sourceTree = "<group>"; };
 		96AA8E701FFD08F2005B884A /* ultrastar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ultrastar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AA8E731FFD08F2005B884A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96AA8E751FFD08F2005B884A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96AA8E781FFD08F2005B884A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96AA8E7A1FFD08F2005B884A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96AA8E7D1FFD08F2005B884A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		96AA8E8F1FFD08F2005B884A /* ultrastarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ultrastarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AA8E931FFD08F3005B884A /* ultrastarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ultrastarUITests.swift; sourceTree = "<group>"; };
 		96AA8E951FFD08F3005B884A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96AA8EA11FFD09C0005B884A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96AA8EA61FFD3836005B884A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		96AA8EA81FFD4D12005B884A /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		A29906B82C63F45AC63B1DA2 /* Pods-ultrastarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultrastarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ultrastarTests/Pods-ultrastarTests.release.xcconfig"; sourceTree = "<group>"; };
+		B51FC4F1C1B774192703DC74 /* Pods-ultrastarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultrastarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ultrastarUITests/Pods-ultrastarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0F00E3FDBD22E6D4B635D9 /* Pods-ultrastar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultrastar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ultrastar/Pods-ultrastar.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB62D84DC7B128B6096C223 /* Pods-ultrastarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ultrastarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ultrastarUITests/Pods-ultrastarUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CD55A63DB3A068C50E9A86 /* Pods_ultrastar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10A5DB7637238B748166841 /* Pods_ultrastarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF01D2291E32789573406A6D /* Pods_ultrastarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00874EBC65933450C6D763CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6023894A23EE8CF5317AC7B3 /* Pods_ultrastar.framework */,
+				15A4AFDF465FD1AC5AB40394 /* Pods_ultrastarTests.framework */,
+				24CB5DFF6C8DA90802A55330 /* Pods_ultrastarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96AA8E671FFD08F2005B884A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				96AA8E871FFD08F2005B884A /* ultrastarTests */,
 				96AA8E921FFD08F3005B884A /* ultrastarUITests */,
 				96AA8E711FFD08F2005B884A /* Products */,
+				F997E72CB29207D7EF692311 /* Pods */,
+				00874EBC65933450C6D763CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +128,14 @@
 		96AA8E721FFD08F2005B884A /* ultrastar */ = {
 			isa = PBXGroup;
 			children = (
-				96AA8E731FFD08F2005B884A /* AppDelegate.swift */,
-				96AA8E751FFD08F2005B884A /* ViewController.swift */,
+				96AA8EA51FFD3802005B884A /* Controller */,
+				96AA8EA41FFD37FE005B884A /* View */,
+				96AA8EA31FFD37F7005B884A /* Model */,
 				96AA8E771FFD08F2005B884A /* Main.storyboard */,
 				96AA8E7A1FFD08F2005B884A /* Assets.xcassets */,
 				96AA8E7C1FFD08F2005B884A /* LaunchScreen.storyboard */,
 				96AA8E7F1FFD08F2005B884A /* Info.plist */,
+				96AA8EA11FFD09C0005B884A /* GoogleService-Info.plist */,
 			);
 			path = ultrastar;
 			sourceTree = "<group>";
@@ -125,6 +158,43 @@
 			path = ultrastarUITests;
 			sourceTree = "<group>";
 		};
+		96AA8EA31FFD37F7005B884A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96AA8EA61FFD3836005B884A /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96AA8EA41FFD37FE005B884A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96AA8EA51FFD3802005B884A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96AA8E731FFD08F2005B884A /* AppDelegate.swift */,
+				96AA8EA81FFD4D12005B884A /* SongTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F997E72CB29207D7EF692311 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA0F00E3FDBD22E6D4B635D9 /* Pods-ultrastar.debug.xcconfig */,
+				7C997F1213FFE94D17534F4A /* Pods-ultrastar.release.xcconfig */,
+				0CA35D821D99AFEB8F37CB4A /* Pods-ultrastarTests.debug.xcconfig */,
+				A29906B82C63F45AC63B1DA2 /* Pods-ultrastarTests.release.xcconfig */,
+				B51FC4F1C1B774192703DC74 /* Pods-ultrastarUITests.debug.xcconfig */,
+				FCB62D84DC7B128B6096C223 /* Pods-ultrastarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96AA8E981FFD08F3005B884A /* Build configuration list for PBXNativeTarget "ultrastar" */;
 			buildPhases = (
+				B92CC999EA7F0408F7364745 /* [CP] Check Pods Manifest.lock */,
 				96AA8E6C1FFD08F2005B884A /* Sources */,
 				96AA8E6D1FFD08F2005B884A /* Frameworks */,
 				96AA8E6E1FFD08F2005B884A /* Resources */,
+				055F974995CFA60BC0DF3D4F /* [CP] Embed Pods Frameworks */,
+				2353FFD2940EB13982E30E4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96AA8E9B1FFD08F3005B884A /* Build configuration list for PBXNativeTarget "ultrastarTests" */;
 			buildPhases = (
+				E8AF890B909453722199BE26 /* [CP] Check Pods Manifest.lock */,
 				96AA8E801FFD08F2005B884A /* Sources */,
 				96AA8E811FFD08F2005B884A /* Frameworks */,
 				96AA8E821FFD08F2005B884A /* Resources */,
+				EE44042EACAE5E350A692134 /* [CP] Embed Pods Frameworks */,
+				1DC4820B1BA32ECE85F9AE38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96AA8E9E1FFD08F3005B884A /* Build configuration list for PBXNativeTarget "ultrastarUITests" */;
 			buildPhases = (
+				4C68DA15FCB4434D225684F7 /* [CP] Check Pods Manifest.lock */,
 				96AA8E8B1FFD08F2005B884A /* Sources */,
 				96AA8E8C1FFD08F2005B884A /* Frameworks */,
 				96AA8E8D1FFD08F2005B884A /* Resources */,
+				23D7C8DFE3ED2C685CC8DABD /* [CP] Embed Pods Frameworks */,
+				C52305AFB43FF89E0AC07D89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96AA8E7E1FFD08F2005B884A /* LaunchScreen.storyboard in Resources */,
+				96AA8EA21FFD09C0005B884A /* GoogleService-Info.plist in Resources */,
 				96AA8E7B1FFD08F2005B884A /* Assets.xcassets in Resources */,
 				96AA8E791FFD08F2005B884A /* Main.storyboard in Resources */,
 			);
@@ -254,12 +334,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		055F974995CFA60BC0DF3D4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ultrastar/Pods-ultrastar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ultrastar/Pods-ultrastar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DC4820B1BA32ECE85F9AE38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ultrastarTests/Pods-ultrastarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2353FFD2940EB13982E30E4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ultrastar/Pods-ultrastar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23D7C8DFE3ED2C685CC8DABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ultrastarUITests/Pods-ultrastarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C68DA15FCB4434D225684F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ultrastarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92CC999EA7F0408F7364745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ultrastar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C52305AFB43FF89E0AC07D89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ultrastarUITests/Pods-ultrastarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8AF890B909453722199BE26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ultrastarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE44042EACAE5E350A692134 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ultrastarTests/Pods-ultrastarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96AA8E6C1FFD08F2005B884A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96AA8E761FFD08F2005B884A /* ViewController.swift in Sources */,
+				96AA8EA71FFD3836005B884A /* Song.swift in Sources */,
+				96AA8EA91FFD4D12005B884A /* SongTableViewController.swift in Sources */,
 				96AA8E741FFD08F2005B884A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,36 +659,41 @@
 		};
 		96AA8E991FFD08F3005B884A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA0F00E3FDBD22E6D4B635D9 /* Pods-ultrastar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				INFOPLIST_FILE = ultrastar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucferbux.ultrastar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		96AA8E9A1FFD08F3005B884A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C997F1213FFE94D17534F4A /* Pods-ultrastar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Y2Y846R76;
 				INFOPLIST_FILE = ultrastar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucferbux.ultrastar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		96AA8E9C1FFD08F3005B884A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA35D821D99AFEB8F37CB4A /* Pods-ultrastarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +711,7 @@
 		};
 		96AA8E9D1FFD08F3005B884A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29906B82C63F45AC63B1DA2 /* Pods-ultrastarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +729,7 @@
 		};
 		96AA8E9F1FFD08F3005B884A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51FC4F1C1B774192703DC74 /* Pods-ultrastarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +746,7 @@
 		};
 		96AA8EA01FFD08F3005B884A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB62D84DC7B128B6096C223 /* Pods-ultrastarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
